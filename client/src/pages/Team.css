@@ -1,0 +1,79 @@
+.team-intro {
+  margin-bottom: 28px;
+}
+
+.team-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(30, 27, 75, 0.04);
+}
+
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px;
+}
+
+.team-table th,
+.team-table td {
+  padding: 17px 20px;
+  border-bottom: 1px solid #f1f5f9;
+  color: #475569;
+  font-size: 14px;
+  text-align: left;
+}
+
+.team-table th {
+  color: #64748b;
+  background: #f8fafc;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.team-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.team-member-name {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  color: #1e1b4b;
+  font-weight: 700;
+}
+
+.team-avatar {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #4f46e5;
+  background: #eef2ff;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.role-pill {
+  display: inline-flex;
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.role-admin {
+  color: #3730a3;
+  background: #e0e7ff;
+}
+
+.role-member {
+  color: #166534;
+  background: #dcfce7;
+}

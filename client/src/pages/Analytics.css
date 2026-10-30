@@ -1,0 +1,135 @@
+.analytics-intro {
+  margin-bottom: 28px;
+}
+
+.completion-badge {
+  padding: 9px 13px;
+  border: 1px solid #bbf7d0;
+  border-radius: 999px;
+  color: #166534;
+  background: #f0fdf4;
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.analytics-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.analytics-stat-card,
+.analytics-panel {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(30, 27, 75, 0.04);
+}
+
+.analytics-stat-card {
+  min-width: 0;
+  padding: 18px;
+}
+
+.analytics-stat-card span {
+  display: block;
+  min-height: 32px;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.analytics-stat-card strong {
+  display: block;
+  margin-top: 10px;
+  color: #1e1b4b;
+  font-size: 28px;
+}
+
+.analytics-panels {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.analytics-panel {
+  padding: 22px;
+}
+
+.analytics-panel h3 {
+  margin: 0 0 22px;
+  color: #1e1b4b;
+  font-size: 17px;
+}
+
+.breakdown-list {
+  display: grid;
+  gap: 18px;
+}
+
+.breakdown-row {
+  display: grid;
+  gap: 8px;
+}
+
+.breakdown-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #475569;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.breakdown-label strong {
+  color: #1e1b4b;
+}
+
+.bar-track {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #f1f5f9;
+}
+
+.bar-fill {
+  display: block;
+  height: 100%;
+  min-width: 3px;
+  border-radius: inherit;
+}
+
+.bar-indigo {
+  background: #4f46e5;
+}
+
+.bar-violet {
+  background: #7c3aed;
+}
+
+.bar-green {
+  background: #16a34a;
+}
+
+@media (max-width: 1050px) {
+  .analytics-stat-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .analytics-panels {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .analytics-intro {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .analytics-stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

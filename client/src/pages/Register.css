@@ -1,0 +1,11 @@
+.register-page .login-card {
+  max-width: 460px;
+}
+
+.register-page .login-brand {
+  margin-bottom: 28px;
+}
+
+.register-page .login-card form button {
+  margin-top: 12px;
+}
